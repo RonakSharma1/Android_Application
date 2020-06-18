@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_back"
+    tools:context=".Display_Database"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="131dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/shape"
+        android:onClick="onClickBack"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDisplayData"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/shape"
+        android:onClick="onClickDisplayData"
+        android:text="Display"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtFoodDisplay"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="53dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Food"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtFoodName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <TextView
+        android:id="@+id/txtFoodName"
+        android:layout_width="0dp"
+        android:layout_height="326dp"
+        android:layout_marginBottom="180dp"
+        android:layout_marginEnd="203dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="203dp"
+        android:layout_marginStart="8dp"
+        android:gravity="top"
+        android:textColor="@color/colorDatabase"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtCalorieIntake"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFoodDisplay" />
+
+    <TextView
+        android:id="@+id/txtCaloriePerGram"
+        android:layout_width="72dp"
+        android:layout_height="399dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="48dp"
+        android:gravity="top"
+        android:textColor="@color/colorDatabase"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/txtAmountConsumed"
+        app:layout_constraintTop_toBottomOf="@+id/txtCalorieper100GDisplay" />
+
+    <TextView
+        android:id="@+id/txtAmountConsumed"
+        android:layout_width="67dp"
+        android:layout_height="382dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="52dp"
+        android:gravity="top"
+        android:textColor="@color/colorDatabase"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/txtCalorieIntake"
+        app:layout_constraintTop_toBottomOf="@+id/txtAmountConsumedDisplay" />
+
+    <TextView
+        android:id="@+id/txtCalorieIntake"
+        android:layout_width="0dp"
+        android:layout_height="337dp"
+        android:layout_marginBottom="190dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:gravity="top"
+        android:textColor="@color/colorDatabase"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtFoodName"
+        app:layout_constraintTop_toBottomOf="@+id/txtAmountConsumedDisplay" />
+
+    <TextView
+        android:id="@+id/txtCalorieper100GDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="24dp"
+        android:text="Calorie\n/100G"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/txtAmountConsumedDisplay"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toEndOf="@+id/txtFoodDisplay"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtAmountConsumedDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:layout_marginTop="16dp"
+        android:text="Amount\nEaten(G)"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtCalorieIntake"
+        app:layout_constraintEnd_toStartOf="@+id/txtCaloriesConsumed"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtCaloriesConsumed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:text="Calories\nEaten"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtCalorieIntake"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+</android.support.constraint.ConstraintLayout>

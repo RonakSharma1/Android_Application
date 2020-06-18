@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hunt_Down_Your_Calories!</string>
+    <string-array name="Day_Number">
+        <item>Select A Day</item>
+        <item>Day1</item>
+        <item>Day2</item>
+        <item>Day3</item>
+        <item>Day4</item>
+        <item>Day5</item>
+        <item>Day6</item>
+        <item>Day7</item>
+    </string-array>
+</resources>
