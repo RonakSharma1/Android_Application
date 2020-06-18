@@ -15,8 +15,7 @@ Developed an Android application to track my calories intake during the week. Th
 
 
 # Video Demonstration
-The video below shows a quick run through the application
-xxxxxxxx
+The video below shows a quick run through the [application](https://drive.google.com/file/d/1iPZ9AuZJxTQRCou4JYB7oazw_Cpwjq9c/view)
 
 # Motivation
 This was a personal project developed to expand my knowledge about software engineering by solving a problem close to me. During the app development, I was transitioning to a healthier lifestyle and hence this application was developed to ease that process
