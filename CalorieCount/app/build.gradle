@@ -1,14 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
-        applicationId "com.example.androidactivities.caloriecount"
+        applicationId "com.ronakSharma.calorieHunter.caloriecount"
         minSdkVersion 15
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        aaptOptions.cruncherEnabled = false
+        aaptOptions.useNewCruncher = false
     }
     buildTypes {
         release {

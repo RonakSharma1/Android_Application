@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.androidactivities.caloriecount">
+    package="com.ronakSharma.calorieHunter.caloriecount">
     @style/Theme.AppCompat.NoActionBar
     <application
         android:allowBackup="true"
