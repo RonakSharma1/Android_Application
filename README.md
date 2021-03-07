@@ -13,13 +13,14 @@ Developed an Android application to track my calories intake during the week. Th
 9. The application shall calculate and display the BMI(Body Mass Index) of the user
 10. The application shall predict the number of calories required to gain and loose weight based on the user calorie consumption pattern
 
+# PlayStore
+This app has been uploaded to the Playstore at the following [link](https://play.google.com/store/apps/details?id=com.ronakSharma.calorieHunter.caloriecount)
 
 # Video Demonstration
 [Video shows a quick run through the application](https://drive.google.com/file/d/1B-OknP-Ng3nR9jp76IuWfGyt78H0HZoY/view?usp=sharing)
 
 # Motivation
 This was a personal project developed to expand my knowledge about software engineering by solving a problem close to me. During the app development, I was transitioning to a healthier lifestyle and hence this application was developed to ease that process
-
 
 # Setup/Installation
 1. Install Android Studio
